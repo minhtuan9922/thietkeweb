@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Add fancyBox main JS and CSS files -->
 <script src="<?=base_url() ?>js/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="<?=base_url() ?>css/popup.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="<?=base_url() ?>fontawesome-free-5.3.1-web/css/all.css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
