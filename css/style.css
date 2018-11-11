@@ -733,7 +733,7 @@ span.m_5{
 .map {
 	margin-top: 2em;
 }
-.contact-form input[type="text"], .contact-form textarea  {
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea  {
 	display: block;
 	width: 100%;
 	padding: 15px;

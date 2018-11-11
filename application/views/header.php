@@ -10,8 +10,9 @@
 					<ul class="nav" id="nav">
 						<li class="<?php if($this->uri->uri_string() == '') echo 'active'; ?>"><a href="<?=base_url('trangchu') ?>">Trang chủ</a></li>
 						<li class="<?php if($this->uri->uri_string() == 'gioithieu') echo 'active'; ?>"><a href="<?=base_url('gioithieu') ?>">Giới thiệu</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
+<!--						<li><a href="pricing.html">Pricing</a></li>-->
 						<li class="<?php if($this->uri->uri_string() == 'chucnang') echo 'active'; ?>"><a href="<?=base_url('chucnang') ?>">Chức năng</a></li>
+						<li class="<?php if($this->uri->uri_string() == 'lienhe') echo 'active'; ?>"><a href="<?=base_url('lienhe') ?>">Liên hệ</a></li>
 						<div class="clearfix"></div>
 					</ul>
 					<script type="text/javascript" src="<?=base_url() ?>js/responsive-nav.js"></script>
